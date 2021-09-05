@@ -1,0 +1,133 @@
+@font-face{
+    font-family: "metal";
+    src: url("images/Motorstrike-7d0V.ttf") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "metal2";
+    src: url("images/MetalHead-GLqZ.ttf") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "metal3";
+    src: url("images/IronManOfWar001ANcv-6d2Y.ttf") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+html{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 100px;
+    display: flex;
+    padding: 1% 3%;
+    justify-content:space-between;
+    align-items:center;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: "metal";
+    font-weight: normal;
+    color: rgb(247, 42, 15);
+    font-size: 3.2em;
+    text-align: center;
+}
+.btn-primary{
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #2D9CDB;
+}
+.shop-item{
+    margin:30px;
+
+}
+.shop-item-title{
+    display: block;
+    width: 100%;
+   text-align: center;
+   font-weight: bold;
+   font-size: 1.5em;
+   color: rgb(255, 255, 255);
+   margin-bottom: 15px;
+   font-family: "metal2";
+   font-weight: normal;
+}
+.shop-item-image{
+    height: 250px;
+}
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow: 1;
+    color: rgb(255, 255, 255);
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    transition: 1s;
+    padding: 1.5rem;
+    width: 10rem;
+    margin-bottom:50px;
+    text-align: center;
+    display: block;
+    margin-left: 5pxpx;
+    margin-right: auto;
+}
+img:hover{
+    filter:grayscale(50%);
+    transform: scale(1.2);
+}
+.clear-cart{
+    font-size: 30px;
+    border-radius: 20%;
+    margin: auto;
+    border: 2px solid rgb(255, 72, 0);
+    margin-bottom: 15px;
+}
+
+.total{
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    font-family: "metal3";
+    font-weight: normal;   
+   text-decoration: underline;
+}
+.have{
+    font-size: 25px;
+}
+.count-cart{
+    font-size: 30px;
+}
+.total-cart{
+    font-size: 30px;
+}
